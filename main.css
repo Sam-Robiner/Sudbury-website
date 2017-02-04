@@ -1,0 +1,41 @@
+﻿body
+{
+
+}
+
+/* Styling for the navbar class based on code from http://www.w3schools.com/css/css_navbar.asp 
+    I understand how it works, and I played with the styling myself, I just needed the styling
+    syntax that produces a basic nav bar.
+*/
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.navbar {
+    float: left;
+}
+
+
+li a.navbar {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover.navbar {
+    background-color: #111;
+}
+
+/*
+.active {
+    background-color: #4CAF50;
+}
+*/
